@@ -1,0 +1,9 @@
+package Corejavaprograms;
+
+public class Introductionprogram16 {
+	    public static void main(String[] args) {
+	        int y = 2024;
+	        System.out.println((y%4==0 && y%100!=0) || y%400==0 ? "Leap" : "Not");
+	    }
+	}
+
